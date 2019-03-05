@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7438F76222E80C700BAAB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7438F75222E80C700BAAB2F /* AppDelegate.m */; };
+		F7438F79222E80C700BAAB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7438F78222E80C700BAAB2F /* ViewController.m */; };
+		F7438F7C222E80C700BAAB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7438F7A222E80C700BAAB2F /* Main.storyboard */; };
+		F7438F7E222E80C800BAAB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7438F7D222E80C800BAAB2F /* Assets.xcassets */; };
+		F7438F81222E80C800BAAB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7438F7F222E80C800BAAB2F /* LaunchScreen.storyboard */; };
+		F7438F84222E80C800BAAB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7438F83222E80C800BAAB2F /* main.m */; };
+		F7438F8E222E80C800BAAB2F /* AppReSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7438F8D222E80C800BAAB2F /* AppReSignTests.m */; };
+		F7438F99222E80C800BAAB2F /* AppReSignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7438F98222E80C800BAAB2F /* AppReSignUITests.m */; };
+		F7438FA7222E80E000BAAB2F /* AppReSign.sh in Resources */ = {isa = PBXBuildFile; fileRef = F7438FA6222E80E000BAAB2F /* AppReSign.sh */; };
+		F7438FAB222E840A00BAAB2F /* Wechat7.0.2越狱.ipa in Resources */ = {isa = PBXBuildFile; fileRef = F7438FAA222E840A00BAAB2F /* Wechat7.0.2越狱.ipa */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7438F8A222E80C800BAAB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7438F69222E80C700BAAB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7438F70222E80C700BAAB2F;
+			remoteInfo = AppReSign;
+		};
+		F7438F95222E80C800BAAB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7438F69222E80C700BAAB2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7438F70222E80C700BAAB2F;
+			remoteInfo = AppReSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7438F71222E80C700BAAB2F /* AppReSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppReSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7438F74222E80C700BAAB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7438F75222E80C700BAAB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7438F77222E80C700BAAB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7438F78222E80C700BAAB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7438F7B222E80C700BAAB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7438F7D222E80C800BAAB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7438F80222E80C800BAAB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7438F82222E80C800BAAB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7438F83222E80C800BAAB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7438F89222E80C800BAAB2F /* AppReSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppReSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7438F8D222E80C800BAAB2F /* AppReSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppReSignTests.m; sourceTree = "<group>"; };
+		F7438F8F222E80C800BAAB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7438F94222E80C800BAAB2F /* AppReSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppReSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7438F98222E80C800BAAB2F /* AppReSignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppReSignUITests.m; sourceTree = "<group>"; };
+		F7438F9A222E80C800BAAB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7438FA6222E80E000BAAB2F /* AppReSign.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = AppReSign.sh; sourceTree = "<group>"; };
+		F7438FAA222E840A00BAAB2F /* Wechat7.0.2越狱.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wechat7.0.2越狱.ipa"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7438F6E222E80C700BAAB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F86222E80C800BAAB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F91222E80C800BAAB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7438F68222E80C700BAAB2F = {
+			isa = PBXGroup;
+			children = (
+				F7438FA9222E840A00BAAB2F /* APP */,
+				F7438F73222E80C700BAAB2F /* AppReSign */,
+				F7438F8C222E80C800BAAB2F /* AppReSignTests */,
+				F7438F97222E80C800BAAB2F /* AppReSignUITests */,
+				F7438F72222E80C700BAAB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7438F72222E80C700BAAB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7438F71222E80C700BAAB2F /* AppReSign.app */,
+				F7438F89222E80C800BAAB2F /* AppReSignTests.xctest */,
+				F7438F94222E80C800BAAB2F /* AppReSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7438F73222E80C700BAAB2F /* AppReSign */ = {
+			isa = PBXGroup;
+			children = (
+				F7438FA6222E80E000BAAB2F /* AppReSign.sh */,
+				F7438F74222E80C700BAAB2F /* AppDelegate.h */,
+				F7438F75222E80C700BAAB2F /* AppDelegate.m */,
+				F7438F77222E80C700BAAB2F /* ViewController.h */,
+				F7438F78222E80C700BAAB2F /* ViewController.m */,
+				F7438F7A222E80C700BAAB2F /* Main.storyboard */,
+				F7438F7D222E80C800BAAB2F /* Assets.xcassets */,
+				F7438F7F222E80C800BAAB2F /* LaunchScreen.storyboard */,
+				F7438F82222E80C800BAAB2F /* Info.plist */,
+				F7438F83222E80C800BAAB2F /* main.m */,
+			);
+			path = AppReSign;
+			sourceTree = "<group>";
+		};
+		F7438F8C222E80C800BAAB2F /* AppReSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7438F8D222E80C800BAAB2F /* AppReSignTests.m */,
+				F7438F8F222E80C800BAAB2F /* Info.plist */,
+			);
+			path = AppReSignTests;
+			sourceTree = "<group>";
+		};
+		F7438F97222E80C800BAAB2F /* AppReSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7438F98222E80C800BAAB2F /* AppReSignUITests.m */,
+				F7438F9A222E80C800BAAB2F /* Info.plist */,
+			);
+			path = AppReSignUITests;
+			sourceTree = "<group>";
+		};
+		F7438FA9222E840A00BAAB2F /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				F7438FAA222E840A00BAAB2F /* Wechat7.0.2越狱.ipa */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7438F70222E80C700BAAB2F /* AppReSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7438F9D222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSign" */;
+			buildPhases = (
+				F7438F6D222E80C700BAAB2F /* Sources */,
+				F7438F6E222E80C700BAAB2F /* Frameworks */,
+				F7438F6F222E80C700BAAB2F /* Resources */,
+				F7438FA8222E815C00BAAB2F /* Run AppReSign Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppReSign;
+			productName = AppReSign;
+			productReference = F7438F71222E80C700BAAB2F /* AppReSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7438F88222E80C800BAAB2F /* AppReSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7438FA0222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSignTests" */;
+			buildPhases = (
+				F7438F85222E80C800BAAB2F /* Sources */,
+				F7438F86222E80C800BAAB2F /* Frameworks */,
+				F7438F87222E80C800BAAB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7438F8B222E80C800BAAB2F /* PBXTargetDependency */,
+			);
+			name = AppReSignTests;
+			productName = AppReSignTests;
+			productReference = F7438F89222E80C800BAAB2F /* AppReSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7438F93222E80C800BAAB2F /* AppReSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7438FA3222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSignUITests" */;
+			buildPhases = (
+				F7438F90222E80C800BAAB2F /* Sources */,
+				F7438F91222E80C800BAAB2F /* Frameworks */,
+				F7438F92222E80C800BAAB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7438F96222E80C800BAAB2F /* PBXTargetDependency */,
+			);
+			name = AppReSignUITests;
+			productName = AppReSignUITests;
+			productReference = F7438F94222E80C800BAAB2F /* AppReSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7438F69222E80C700BAAB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DengBin;
+				TargetAttributes = {
+					F7438F70222E80C700BAAB2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F7438F88222E80C800BAAB2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7438F70222E80C700BAAB2F;
+					};
+					F7438F93222E80C800BAAB2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7438F70222E80C700BAAB2F;
+					};
+				};
+			};
+			buildConfigurationList = F7438F6C222E80C700BAAB2F /* Build configuration list for PBXProject "AppReSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7438F68222E80C700BAAB2F;
+			productRefGroup = F7438F72222E80C700BAAB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7438F70222E80C700BAAB2F /* AppReSign */,
+				F7438F88222E80C800BAAB2F /* AppReSignTests */,
+				F7438F93222E80C800BAAB2F /* AppReSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7438F6F222E80C700BAAB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7438F81222E80C800BAAB2F /* LaunchScreen.storyboard in Resources */,
+				F7438FA7222E80E000BAAB2F /* AppReSign.sh in Resources */,
+				F7438FAB222E840A00BAAB2F /* Wechat7.0.2越狱.ipa in Resources */,
+				F7438F7E222E80C800BAAB2F /* Assets.xcassets in Resources */,
+				F7438F7C222E80C700BAAB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F87222E80C800BAAB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F92222E80C800BAAB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7438FA8222E815C00BAAB2F /* Run AppReSign Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run AppReSign Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PROJECT_DIR/AppReSign/AppReSign.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7438F6D222E80C700BAAB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7438F79222E80C700BAAB2F /* ViewController.m in Sources */,
+				F7438F84222E80C800BAAB2F /* main.m in Sources */,
+				F7438F76222E80C700BAAB2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F85222E80C800BAAB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7438F8E222E80C800BAAB2F /* AppReSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7438F90222E80C800BAAB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7438F99222E80C800BAAB2F /* AppReSignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7438F8B222E80C800BAAB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7438F70222E80C700BAAB2F /* AppReSign */;
+			targetProxy = F7438F8A222E80C800BAAB2F /* PBXContainerItemProxy */;
+		};
+		F7438F96222E80C800BAAB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7438F70222E80C700BAAB2F /* AppReSign */;
+			targetProxy = F7438F95222E80C800BAAB2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7438F7A222E80C700BAAB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7438F7B222E80C700BAAB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7438F7F222E80C800BAAB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7438F80222E80C800BAAB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7438F9B222E80C800BAAB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7438F9C222E80C800BAAB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7438F9E222E80C800BAAB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7438F9F222E80C800BAAB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7438FA1222E80C800BAAB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppReSign.app/AppReSign";
+			};
+			name = Debug;
+		};
+		F7438FA2222E80C800BAAB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppReSign.app/AppReSign";
+			};
+			name = Release;
+		};
+		F7438FA4222E80C800BAAB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppReSign;
+			};
+			name = Debug;
+		};
+		F7438FA5222E80C800BAAB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = AppReSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengbin.AppReSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppReSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7438F6C222E80C700BAAB2F /* Build configuration list for PBXProject "AppReSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7438F9B222E80C800BAAB2F /* Debug */,
+				F7438F9C222E80C800BAAB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7438F9D222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7438F9E222E80C800BAAB2F /* Debug */,
+				F7438F9F222E80C800BAAB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7438FA0222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7438FA1222E80C800BAAB2F /* Debug */,
+				F7438FA2222E80C800BAAB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7438FA3222E80C800BAAB2F /* Build configuration list for PBXNativeTarget "AppReSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7438FA4222E80C800BAAB2F /* Debug */,
+				F7438FA5222E80C800BAAB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7438F69222E80C700BAAB2F /* Project object */;
+}
