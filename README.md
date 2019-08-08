@@ -8,7 +8,7 @@ App脚本重签名
 
 直接运行项目，就能将App直接运行到模拟器或者手机上。
 
-如果想直接产出重签的ipa包，可以看着这片文章：[iOS逆向(3)-APP重签名](https://www.jianshu.com/p/4e3aa435d848)
-
+如果想直接产出重签的ipa包，可以看着这片文章：[iOS逆向(3)-APP重签名(被封了)](https://www.jianshu.com/p/4e3aa435d848)
+[iOS逆向(3)-APP重签名（看这个吧）](https://juejin.im/user/57d24a7d816dfa005433d5d3)
 
 警告：重签后的微信不要用自己的账号登录，有封号的微信！
